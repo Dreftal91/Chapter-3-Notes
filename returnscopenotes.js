@@ -6,8 +6,8 @@ function printYes() {
     console.log('yes')
 }
 
-printYes()//prints 'yes' when called
-printYes()//prints 'yes' when called
+printYes();//prints 'yes' when called
+printYes();//prints 'yes' when called
 
 //Example 2: With parameter
 
@@ -15,8 +15,8 @@ function printText(text) {  //one parameter called text
     console.log(text)
 }
 
-printText('yes') //argument 'yes' replaces parameter text
-printText('no') //argument 'no' replaces parameter text
+printText('yes'); //argument 'yes' replaces parameter text
+printText('no'); //argument 'no' replaces parameter text
 
 //Return statements provide values to the rest of the program
 //Returned values can be used by other parts of the code
@@ -27,17 +27,17 @@ function double(num) {
     console.log(num*2)
 }
 
-double(3)
+double(3);
 
 //Example 4: Using return
 function triple(num) {
     return (num*3);
 }
-console.log(triple(5)) //to print out the value returned
+console.log(triple(5)); //to print out the value returned
 
-let lives = triple(7) // to use the value returned in the rest of the program.
-lives = lives-1 //save it to a variable and continue on with your code
-console.log(lives)
+let lives = triple(7); // to use the value returned in the rest of the program.
+lives = lives-1; //save it to a variable and continue on with your code
+console.log(lives);
 
 //Scope is the part of the program where the binding (value of the variable) is visible.
 //global scope: created outside all {} and accessible everywhere

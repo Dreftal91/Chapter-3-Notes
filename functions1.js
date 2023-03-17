@@ -115,8 +115,8 @@
 //     if (totalquantity >= 1000 && totalquantity <= 2000) {
 //         console.log(`Congratulations! You donated ${totalquantity} which is above $1,000 so your donation will be doubled by a local company. The final donation is ${totalquantity*2}`)
 //     }
-//     if (totalquantity >= 2000) {
-//         console.log(`Congratulations! You donated ${totalquantity} which is above $2,000 so your donation will be doubled and given a bonus of the amount after 2,000 by a local company . The final donation is ${totalquantity* 2 + overtwothousand + 2000}`)
-//     }
+    if (totalquantity >= 2000) {
+        console.log(`Congratulations! You donated ${totalquantity} which is above $2,000 so your donation will be doubled and given a bonus of the amount after 2,000 by a local company . The final donation is ${totalquantity* 2 + overtwothousand + 2000}`)
+    }
 // }
 // charity(2002, 20, 10);

@@ -24,9 +24,9 @@ const readLine = require('readline-sync');
 //     }
 //     let total = num1+num2;
 //     console.log(total)
-}
-
-numberGenerator();
+// }
+//
+// numberGenerator();
 
 
 //number 3
@@ -41,7 +41,31 @@ numberGenerator();
 
 //number 4
 
+function charityWork() {
+    let charityinback = 0;
+    let overtwothousand = charityinback - 2000;
+    let charitycollected = 0;
+    let people = Number(readLine.question('How many people will donate?: '));
+    while (people > 0) {
+        charitycollected = Number(readLine.question("How much money was donated?: "));
+        charityinback += charitycollected;
+        people--
+    }
+    if (charityinback < 1000) {
+        console.log(`The total amount donated is ${charityinback+100}`);
+        return
+    }
+    if (charityinback >= 1000 && charityinback <= 2000) {
+        console.log(`The total amount donated is ${charityinback*2}`);
+        return
+    }
+    if (charityinback >= 2000) {
+        console.log(`The total amount donated is ${charityinback* 2 + overtwothousand + 2000}`);
+        return
+    }
+}
 
+charityWork();
 
 //number 5
 
@@ -130,11 +154,15 @@ numberGenerator();
 
 //number 8
 
-function slopeFormula() {
-    let coordinates1point1 = readLine.question('In the first coordinates, what is the x coordinate?: ');
-    let coordinates1point2 = readLine.question('In the first coordinates, what is the y coordinate?: ');
-    let coordinates2point1 = readLine.question('In the second coordinates, what is the x coordinate?: ');
-    let coordinates2point2 = readLine.question('In the second coordinates, what is the y coordinate?: ');
-    let slopePart1 = coordinates2point2 - coordinates1point2
-
-}
+// function slopeFormula() {
+//     let coordinates1point1 = Number(readLine.question('In the first coordinates, what is the x coordinate?: '));
+//     let coordinates1point2 = Number(readLine.question('In the first coordinates, what is the y coordinate?: '));
+//     let coordinates2point1 = Number(readLine.question('In the second coordinates, what is the x coordinate?: '));
+//     let coordinates2point2 = Number(readLine.question('In the second coordinates, what is the y coordinate?: '));
+//     let slopePart1 = coordinates2point2 - coordinates1point2;
+//     let slopePart2 = coordinates2point1 - coordinates1point1;
+//     let finalslope = slopePart1/slopePart2;
+//     console.log(finalslope);
+// }
+//
+// slopeFormula();

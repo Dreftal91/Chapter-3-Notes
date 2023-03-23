@@ -67,7 +67,7 @@ const readLine = require('readline-sync');
 //
 // charityWork();
 
-//number 5
+// number 5
 
 // function dartsgame() {
 //     let round1 = Number(readLine.question('How many points did you score the in the first round?: '));

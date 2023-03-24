@@ -32,5 +32,5 @@
 //number 4
 
 function elementsInReverse(array) {
-    
+
 }

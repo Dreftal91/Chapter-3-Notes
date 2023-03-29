@@ -91,3 +91,73 @@
 // comparer([1,2,3]);
 
 //number 7
+// function comparer(array) {
+//     let lastValue = array.length - 0;
+//     let firstValue = array[0];
+//     let newArray = [];
+//     if (lastValue < firstValue){
+//         for (let i = 0; i < array.length;i++){
+//             newArray.push(array[i]);
+//             newArray[i] = lastValue;
+//         }
+//         console.log(newArray);
+//     } else if (lastValue > firstValue){
+//         for (let i = 0; i < array.length;i++){
+//             newArray.push(array[i]);
+//             newArray[i] = firstValue;
+//         }
+//         console.log(newArray);
+//     }
+// }
+// comparer([1,2,3]);
+
+//number 8
+// function comparer(array) {
+//     let lastValue = array.length - 0;
+//     let firstValue = array[0];
+//     let newArray = [];
+//     console.log(array);
+//     if (lastValue < firstValue){
+//         for (let i = 0; i < array.length;i++){
+//             newArray.push(array[i]);
+//             newArray[i] = lastValue;
+//         }
+//         console.log(newArray);
+//     } else if (lastValue > firstValue){
+//         for (let i = 0; i < array.length;i++){
+//             newArray.push(array[i]);
+//             newArray[i] = firstValue;
+//         }
+//         console.log(newArray);
+//     }
+// }
+// comparer([1,2,3]);
+
+//number 9
+// function ReplaceProductandDividend(number) {
+//     let product = 1;
+//     let arr9 = [];
+//     for (let i = 0; i < number.length; i++) {
+//         product = product * number[i];
+//     }
+//     for (let i = 0; i < number.length; i++) {
+//         arr9[i] = product/number[i];
+//     }
+//     console.log(arr9);
+// }
+// (ReplaceProductandDividend([1, 4, 6, 2, 4]));
+
+//number 10
+function ReplaceProductandDividend(number) {
+    let product = 1;
+    let arr9 = [];
+    for (let i = 0; i < number.length; i++) {
+        product = product * number[i];
+    }
+    for (let i = 0; i < number.length; i++) {
+        arr9[i] = product/number[i];
+    }
+    console.log(number);
+    console.log(arr9);
+}
+(ReplaceProductandDividend([1, 4, 6, 2, 4]));

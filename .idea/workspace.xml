@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
-    <list default="true" id="c45dc64b-601b-47be-b48a-a50adbd4cefe" name="Default Changelist" comment="Did return and scope notes">
-      <change afterPath="$PROJECT_DIR$/scope1.js" afterDir="false" />
+    <list default="true" id="c45dc64b-601b-47be-b48a-a50adbd4cefe" name="Default Changelist" comment="Started scope exercises">
 =======
     <list default="true" id="c45dc64b-601b-47be-b48a-a50adbd4cefe" name="Default Changelist" comment="">
 >>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope1.js" beforeDir="false" afterPath="$PROJECT_DIR$/scope1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,17 +96,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ixmo/WebstormProjects/Chapter-3-Notes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="returnscopenotes.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="returnscopenotes.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
@@ -129,7 +130,10 @@
       <workItem from="1678825998272" duration="2704000" />
 <<<<<<< Updated upstream
       <workItem from="1678911820247" duration="2153000" />
-      <workItem from="1678985289001" duration="2346000" />
+      <workItem from="1678985289001" duration="3354000" />
+      <workItem from="1679940617974" duration="530000" />
+      <workItem from="1679941234954" duration="50000" />
+      <workItem from="1681318617007" duration="56000" />
 =======
       <workItem from="1678911820247" duration="3058000" />
 >>>>>>> Stashed changes
@@ -149,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678986940341</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started scope exercises">
+      <created>1678987690916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678987690916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
 =======
     <task id="LOCAL-00002" summary="did functions1 practice">
       <created>1678914023274</created>
@@ -212,7 +223,8 @@
     <MESSAGE value="initial commit" />
 <<<<<<< Updated upstream
     <MESSAGE value="Did return and scope notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did return and scope notes" />
+    <MESSAGE value="Started scope exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started scope exercises" />
 =======
     <MESSAGE value="did functions1 practice" />
     <option name="LAST_COMMIT_MESSAGE" value="did functions1 practice" />

@@ -45,10 +45,10 @@ presentverb.push(readLine.question('Choose a verb in the present tense: '));
 
 
 console.log(`Solomon was feeling ${adjective[0]} and decided to go to the zoo. He went to the booth and paid the booth operator 
-${number[0]} ${pluralnoun[0]}. He got a ticket and walked around. As he walked, he saw a ${adjective[1]} tiger. He walked some more and was intrigued 
-by the Gorilla’s enclosure. It was ${adjective[2]} and ${adjective[3]}. Inside the habitat, there were some banana trees as well as some
- bamboo. When he looked closely, he saw two gorillas. The Zoo keeper saw Solomon looking at the gorillas and told him 
- the first gorilla was called Hernán, ${adjective[4]} and ${adjective[5]}, and liked bananas. The Zookeeper also said the second gorilla 
- was named Yehonasan, was ${adjective[6]} and ${adjective[7]}, and liked bamboo. After hearing their names, the gorillas waved to Solomon 
- and the Zookeeper. Solomon was so happy he was jumping in happiness. After spending ${number[1]} hours in the zoo, he decided 
- to go (the) home and rest.`);
+${number[0]} ${pluralnoun[0]}. He got a ticket and walked around. As he walked, he saw a ${adjective[1]} ${noun[0]}. He walked some more and was intrigued 
+by the Gorilla’s enclosure. It was ${adjective[2]} and ${adjective[3]}. Inside the habitat, there were some ${noun[4]} trees as well as some
+ ${noun[5]}. When he looked closely, he saw two gorillas. The Zoo keeper saw Solomon looking at the gorillas and told him 
+ the first gorilla was called Hernán, ${adjective[4]} and ${adjective[5]}, and liked ${pluralnoun[1]}. The Zookeeper also said the second gorilla 
+ was named Yehonasan, was ${adjective[6]} and ${adjective[7]}, and liked ${noun[3]}. After hearing their names, the gorillas ${pastverb[0]} to Solomon 
+ and the Zookeeper. Solomon was so happy he was ${presentverb[0]} in happiness. After spending ${number[1]} hours in the zoo, he decided 
+ to go (the) ${noun[1]} and ${noun[2]}.`);

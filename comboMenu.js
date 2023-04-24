@@ -3,9 +3,8 @@ const readLine = require('readline-sync');
 let order = [];
 let beveragesize = '';
 let ordersum = 0;
-for (let i = 0; i < order.length; i++) {
-    ordersum += order[i];
-}
+let frysize = '';
+let ketchupquantity = 0;
 
 let sandwichChoice = readLine.question('Do you want a chicken sandwich($5.25), a beef sandwich(6.25), or a tofu sandwich($5.75)?: ');
 
@@ -43,6 +42,52 @@ if (beverageboolean == 'No' || beverageboolean == 'no' || beverageboolean == 'n'
     console.log(`Ok! You didn't choose a drink.`)
 }
 
+let fryselection = readLine.question('Would you like fries?: ');
+if (fryselection == 'yes' || fryselection == 'Yes' || fryselection == 'y') {
+    frysize = readLine.question('Would you like small ($1.00), medium ($1.50), or large ($2.00)?: ');
+    if (frysize == 'small' || frysize == 'Small' || frysize == 's' || frysize == 'S') {
+        let smallfriesmegasize = readLine.question('Would you like to mega size?: ');
+        if (smallfriesmegasize == 'yes' || smallfriesmegasize == 'Yes' || smallfriesmegasize == 'S' || smallfriesmegasize == 's') {
+            let smallfries = 2;
+            order.push(smallfries);
+            console.log('You mega-sized your fries and now their price is $2.00 dollars!');
+        } else if (smallfriesmegasize == 'no' || smallfriesmegasize == 'No' || smallfriesmegasize == 'N' || smallfriesmegasize == 'n') {
+            let smallfries = 1;
+            order.push(smallfries);
+            console.log(`You didn't mega-size your fries and their price is $1.00 dollar!`);
+        }
+    }
+    if (frysize == 'medium' || frysize == 'Medium' || frysize == 'm' || frysize == 'M') {
+        let mediumfries = 1.5;
+        order.push(mediumfries);
+        console.log(`You ordered medium fries and their price is $1.50 dollars!`);
+    }    if (frysize == 'large' || frysize == 'Large' || frysize == 'l' || frysize == 'L') {
+        let mediumfries = 1.5;
+        order.push(mediumfries);
+        console.log(`You ordered large fries and their price is $2.00 dollars!`);
+    }
+
+} else if (fryselection == 'no' || fryselection == 'No' || fryselection == 'n') {
+    console.log('Too bad, you did not order fries.');
+}
+
+ketchupquantity = readLine.question('How many ketchup packets do you want?: ');
+if (ketchupquantity < 0) {
+    ketchupquantity = readLine.question('How many ketchup packets do you want?: ');
+}
+if (ketchupquantity != 0) {
+    let ketchupcost = ketchupquantity*0.25;
+    order.push(ketchupcost);
+}
+
+if (sandwichChoice != '' && beverageboolean != '' && fryselection != '') {
+    let coupon = -1;
+    order.push(coupon);
+}
+
+for (let i = 0; i < order.length; i++) {
+    ordersum += order[i];
+}
+
 console.log(order);
 console.log(ordersum);
-
